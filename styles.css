@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+}
+body {
+  background-image: linear-gradient(
+    135deg,
+    hsla(0, 80.3%, 86.1%, 0.05),
+    hsla(0, 74.2%, 74.1%, 0.1)
+  );
+}
+
+.logo {
+  width: 100%;
+  height: 70px;
+  margin-left: 30px;
+  margin-top: 23px;
+}
+
+.img {
+  width: 100%;
+  height: 250px;
+}
+
+.img__desktop {
+  background-image: url(./images/hero-mobile.jpg);
+  width: 375px;
+  height: 250px;
+}
+.main {
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+}
+.titulo {
+  width: 215px;
+  text-align: center;
+  margin: 50px auto 0px auto;
+}
+
+/* este es el h1 */
+.title {
+  font-weight: 300;
+  font-size: 35px;
+  color: hsl(0, 36%, 70%);
+  letter-spacing: 8px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* este es el h2 */
+.subtitle {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 12px;
+  text-align: center;
+  color: hsl(0, 6%, 24%);
+}
+
+.texto {
+  color: hsl(0, 36%, 70%);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  padding: 25px;
+  line-height: 1.7;
+}
+
+button[type="submit"] {
+  width: 64px;
+  height: 48px;
+  border-radius: 23px 23px;
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  position: absolute;
+  right: 14px;
+  border: 1px solid hsl(0, 80%, 86%);
+}
+
+#input {
+  width: 225px;
+  height: 46px;
+  border-radius: 50px 50px;
+  border: 1px solid hsl(0, 80%, 86%);
+  padding-left: 12px;
+}
+
+#input::placeholder {
+  color: hsl(0, 36%, 70%);
+}
+
+form {
+  width: 300px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+  .pattern {
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
+    width: 774px;
+  }
+
+  .box {
+    width: 55%;
+    position: relative;
+  }
+  .logo {
+    width: 180px;
+    display: inline;
+    position: absolute;
+    top: 0px;
+  }
+
+  .img {
+    width: 480px;
+    position: absolute;
+    right: 0;
+    height: 512px;
+  }
+
+  .img__desktop {
+    background-image: url(./images/hero-desktop.jpg);
+    width: 480px;
+    height: 100%;
+  }
+
+  .main {
+    width: 100%;
+    height: 512px;
+  }
+  .main__container {
+    position: relative;
+    width: 70%;
+    height: 513px;
+    margin: 50px auto;
+  }
+  .titulo {
+    margin: 7px 7px 6px 32px;
+    height: 138px;
+  }
+
+  form {
+    margin: 7px 1px 11px 28px;
+    width: 408px;
+  }
+
+  #input {
+    width: 390px;
+  }
+
+  button[type="submit"] {
+    width: 82px;
+    height: 48px;
+    border-radius: 23px 23px;
+    background-image: linear-gradient(
+      135deg,
+      hsl(0, 80%, 86%),
+      hsl(0, 74%, 74%)
+    );
+    position: absolute;
+    right: 2px;
+    border: 1px solid hsl(0, 80%, 86%);
+  }
+
+  .title {
+    text-align: left;
+    font-weight: 300;
+    font-size: 58px;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 10px;
+    margin-top: 138px;
+  }
+
+  .subtitle {
+    letter-spacing: 16px;
+    text-align: left;
+    font-size: 40px;
+  }
+
+  .texto {
+    padding: 20px 120px 40px 32px;
+    text-align: left;
+    line-height: 24px;
+  }
+}
