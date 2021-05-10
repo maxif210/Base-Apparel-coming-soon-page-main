@@ -59,6 +59,6 @@ Los usuarios deben poder:
 
 ## Autor
 
-- Frontend Mentor - https://www.frontendmentor.io/profile/eduviana
-- Email - eduardoviana83@gmail.com
+- Frontend Mentor - https://www.frontendmentor.io/profile/maxif
+- Email - mfallauto@gmail.com
 
